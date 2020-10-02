@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang=¨es¨>
+	<head>
+		<meta charset-¨UTF-8¨/>
+		<title>Enciclopedia de Salud</title>
+	</head>
+	
+	<body>
+		<h1> ENCICLOPEDIA DE SALUD </h1>
+        <p><img src="../images/enciclo.jpg"></p>
+        <h2>
+            Información de contacto
+        </h2>
+    <div id="after_submit"></div>
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <div class="row">
+     <label class="required" for="name">Tu nombre:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+     <span id="name_validation" class="error_message"></span>
+     </div>
+     <br/>
+     <label class="required" for="sexo">Sexo:</label>
+     <br/>
+     <select name="Sexo">
+        <option value="1">Hombre</option> 
+        <option value="2">Mujer</option> 
+        <option value="3">Otro</option>
+     </select>
+     <br/>
+     <br/>
+     <label class="required" for="puesto">Puesto:</label>
+     <br/>
+     <select name="Puesto">
+        <option value="1">Paciente</option> 
+        <option value="2">Científico</option> 
+        <option value="3">Médico</option>
+        <option value="4">Educador</option>
+        <option value="5">Fabricante</option>
+        <option value="6">Periodista</option>
+     </select>
+    <br/>
+    <br/>
+    <div class="row">
+     <label class="required" for="email">Tu email:</label><br />
+     <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+     <span id="email_validation" class="error_message"></span>
+    </div>
+   
+    <p>Fecha de nacimiento: <br/>
+        <input type="date" name="fechaesperada"> <input type="submit" value="Enviar datos"></p>
+      
+    <div class="row">
+        <label class="required" for="message">Tu mensage:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+     <span id="message_validation" class="error_message"></span>
+     </div>
+     <input type="checkbox" name="Info">Deseo recibir información
+     <br/>
+     <br/>
+     <input id="submit_button" type="submit" value="Enviar email" />
+    
+    </form>
+    <br/>
+    </body>
+    <footer>
+        <a href="contacto.html">Volver arriba</a>
+    </footer>
+</html>
