@@ -15,7 +15,7 @@
     <div id="after_submit"></div>
     <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
     <div class="row">
-     <label class="required" for="name">Tu nombre:</label><br />
+     <label class="required" for="name">Nombre:</label><br />
         <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
      <span id="name_validation" class="error_message"></span>
      </div>
@@ -29,9 +29,10 @@
      </select>
      <br/>
      <br/>
-     <label class="required" for="puesto">Puesto:</label>
+     <label class="required" for="yosoy">
+	    Yo soy:</label>
      <br/>
-     <select name="Puesto">
+     <select name="Yosoy">
         <option value="1">Paciente</option> 
         <option value="2">Científico</option> 
         <option value="3">Médico</option>
@@ -51,7 +52,7 @@
         <input type="date" name="fechaesperada"> <input type="submit" value="Enviar datos"></p>
       
     <div class="row">
-        <label class="required" for="message">Tu mensage:</label><br />
+        <label class="required" for="message">Pregunta:</label><br />
         <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
      <span id="message_validation" class="error_message"></span>
      </div>
