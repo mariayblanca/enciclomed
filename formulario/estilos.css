@@ -73,3 +73,6 @@ button {
     float: right;
     width: 200px;
 }
+p{
+	align: left;
+}
