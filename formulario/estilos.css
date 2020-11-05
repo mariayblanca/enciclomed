@@ -66,10 +66,10 @@ label {
  
 input {
     float: left;
-    width: calc(100% - 60px);
+    width: 60px;
 }
  
 button {
     float: right;
-    width: calc(100% - 60px);
+    width: 60px;
 }
