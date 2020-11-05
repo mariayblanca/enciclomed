@@ -45,3 +45,8 @@ footer{
 	padding-bottom: 50px;
 	padding-left: 80px;
 }
+li{
+	display: inline;
+	padding-left: 3px;
+	padding-right: 3px;
+}
