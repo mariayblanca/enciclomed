@@ -51,6 +51,26 @@ li{
 	padding-left: 3px;
 	padding-right: 3px;
 }
+
 a{
 	color: white;
+}
+form {
+    overflow: hidden;
+}
+ 
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+}
+ 
+input {
+    float: left;
+    width: calc(100% - 200px);
+}
+ 
+button {
+    float: right;
+    width: calc(100% - 200px);
 }
