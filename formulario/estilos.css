@@ -60,16 +60,16 @@ form {
  
 label {
     float: left;
-    width: 200px;
+    width: 60px;
     padding-right: 24px;
 }
  
 input {
     float: left;
-    width: calc(100% - 200px);
+    width: calc(100% - 60px);
 }
  
 button {
     float: right;
-    width: calc(100% - 200px);
+    width: calc(100% - 60px);
 }
