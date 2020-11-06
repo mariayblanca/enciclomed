@@ -1,6 +1,6 @@
 header{
-	background-color: #ffffff;
-	color: #000000;
+	background-color:#000000 ;
+	color:  #ffffff;
 	text-align: center;
 	font-family: "Lucida console", Courier, monospace;
 	font-size: 45px;
@@ -17,8 +17,8 @@ header{
 	
 }
 body{
-	background-color: #ffffff;
-	color: #000000;
+	background-color: #000000;
+	color: #ffffff;
 	text-align: center;
 	font-family: "Lucida console", Courier, monospace;
 	font-size: 40px;
@@ -29,8 +29,8 @@ body{
 	margin-left: 80px;
 }
 footer{
-	background-color: #ffffff;
-	color: #000000;
+	background-color: #000000;
+	color: #ffffff;
 	text-align: center;
 	font-family: "Lucida console", Courier, monospace;
 	font-size: 45px;
@@ -52,5 +52,5 @@ li{
 	padding-right: 3px;
 }
 a{
-	color:blue;
+	color:orange;
 }
