@@ -1,0 +1,22 @@
+main {
+    float:none;
+}   
+a[href]:after {
+    content: " (" attr(href) ")";
+}  
+a[href^="http"]:not([href*="campusmvp.es"]):after {
+    content: " (" attr(href) ")";
+}  
+article {
+    page-break-before: always;
+}
+h2 {
+    page-break-after: always;
+}
+div {
+    page-break-inside: avoid;
+}
+p {
+    widows:3;
+    orphans:3;
+}

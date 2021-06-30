@@ -1,9 +1,9 @@
 header{
-	background-color: #E6007A;
+	background-color: #ffffff;
 	color: #000000;
 	text-align: center;
 	font-family: "Lucida console", Courier, monospace;
-	font-size: 30px;
+	font-size: 45px;
 	font-style: normal;
 	border-style: dashed;
 	margin-top: 60px;
@@ -17,11 +17,11 @@ header{
 	
 }
 body{
-	background-color: #FF52AE;
+	background-color: #ffffff;
 	color: #000000;
 	text-align: center;
 	font-family: "Lucida console", Courier, monospace;
-	font-size: 25px;
+	font-size: 40px;
 	font-style: normal;
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -29,11 +29,11 @@ body{
 	margin-left: 80px;
 }
 footer{
-	background-color: #E6007A;
+	background-color: #ffffff;
 	color: #000000;
 	text-align: center;
 	font-family: "Lucida console", Courier, monospace;
-	font-size: 30px;
+	font-size: 45px;
 	font-style: normal;
 	border-style: dashed;
 	margin-top: 60px;
@@ -52,5 +52,5 @@ li{
 	padding-right: 3px;
 }
 a{
-	color: white;
+	color:blue;
 }
