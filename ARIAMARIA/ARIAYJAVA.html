@@ -29,26 +29,49 @@
 		</header>
 		<main>
         <h2>ARIA Y JAVA</h2>
-        <h3>Mostrar y Ocultar</h3>
-        <div id="flotante" style="display:none;">Contenido a mostrar/ocultar</div>
-        <p><a href="javascript:mostrar();">Mostrar</a></p>
-        <div id="flotante" style="display:none;">
-         <div id="close"><a href="javascript:cerrar();">cerrar</a></div>
-         Este es un div ocultar
+        
+        <h3>Mostrar y Ocultar ARIA</h3>
+         <p>
+            Este está oculto <span aria-hidden="true">pero este no lo está</span>!
+          </p>
+
+
+        <h3>Notificación de cambios ARIA</h3>
+        <fieldset>
+            <legend>Informacion de enfermedades</legend>
+            <label for="seleccionarenf">Enmfermedades:</label>
+            <select id="seleccionarenf" aria-controls="Enfinfo">
+              <option value="">Selecciona una enfermedad&hellip;</option>
+              <option value="Alzheimer">Alzheimer</option>
+              <option value="Botulismo">Botulismo</option>
+              <option value="Coronavirus">Coronavirus</option>
+              <option value="GripeA">GripeA</option>
+            </select>
+            <button id="EnfermedadesInfoBoton">Ir</button>
+          </fieldset>
+          
+          <div role="region" id="Enfinfo" aria-live="polite">
+            <h2 id="Enftitle">Enfermedad no seleccionada</h2>
+            <p id="EnfDescription">Selecciona una enfermedad para ver informacion</p>
+          </div>
+          
+
+        <h3>Nombrar elementos con Label</h3>
+        <div id="caja">
+            Esto es una caja pop-up.
+            <button aria-label="Close" onclick="document.getElementById('caja').style.display='none';" class="close-button">X</button>				
          </div>
+        
+        <h3>Nombrar elementos con Labelledby</h3>
+        <div role="grupo" aria-labelledby="groupLabel">
+            <span id="groupLabel"> Telefono </span>
+            <input type="numero" aria-label="codigo pais">
+            <input type="numero" aria-label="codigo area">
+            <input type="numero" aria-label="numero suscriptor">
+          </div> 
+        <h3></h3>
 
-         <h3>Notificación de cambios</h3>
-
-        <ul class="enfermedades">
-        </ul>
-        <script src="api.js" charset="utf-8"></script>
-        <script src="app.js" charset="utf-8"></script>
-
-
-
-
-
-		<p><a href=""> </a></p>
+		
 		</main>
 	<footer>
 		<a href="ARIAYJAVA.html">Volver arriba</a>
